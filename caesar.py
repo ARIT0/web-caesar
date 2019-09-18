@@ -27,7 +27,7 @@ def rotate_character(char, rot):
     aroundAlph = number // 25
     x = number % 25
     if x == 0:
-        x = pos
+        x = number
     else:
         if aroundAlph >= 0:
             x = x - aroundAlph
