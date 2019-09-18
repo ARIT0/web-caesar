@@ -31,7 +31,6 @@ def rotate_character(char, rot):
     else:
         if aroundAlph >= 0:
             x = x - aroundAlph
-    #print(char, ':', x)
 
     alphabetLower = string.ascii_lowercase
     alphabetUpper = string.ascii_uppercase
